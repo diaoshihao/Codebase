@@ -10,17 +10,21 @@
 
 @interface UIView (Extension)
 
-@property (nonatomic, assign) CGFloat hao_x;
+@property (nonatomic, assign) CGFloat x;
 
-@property (nonatomic, assign) CGFloat hao_y;
+@property (nonatomic, assign) CGFloat y;
 
-@property (nonatomic, assign) CGFloat hao_centerX;
+@property (nonatomic, assign) CGFloat centerX;
 
-@property (nonatomic, assign) CGFloat hao_centerY;
+@property (nonatomic, assign) CGFloat centerY;
 
-@property (nonatomic, assign) CGFloat hao_width;
+@property (nonatomic, assign) CGFloat width;
 
-@property (nonatomic, assign) CGFloat hao_height;
+@property (nonatomic, assign) CGFloat height;
+
+@property (nonatomic, assign) CGFloat screenWidth;
+
+@property (nonatomic, assign) CGFloat screenHeight;
 
 @property (nonatomic, strong, readonly) UIViewController *currentViewController;
 

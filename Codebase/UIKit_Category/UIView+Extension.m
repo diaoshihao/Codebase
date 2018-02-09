@@ -12,63 +12,63 @@
 
 #pragma mark - frame
 
-- (CGFloat)hao_x {
+- (CGFloat)x {
     return self.frame.origin.x;
 }
 
-- (void)setHao_x:(CGFloat)hao_x {
+- (void)setX:(CGFloat)x {
     CGRect frame = self.frame;
-    frame.origin.x = hao_x;
+    frame.origin.x = x;
     self.frame = frame;
 }
 
-- (CGFloat)hao_y {
+- (CGFloat)y {
     return self.frame.origin.y;
 }
 
-- (void)setHao_y:(CGFloat)hao_y {
+- (void)setY:(CGFloat)y {
     CGRect frame = self.frame;
-    frame.origin.y = hao_y;
+    frame.origin.y = y;
     self.frame = frame;
 }
 
-- (CGFloat)hao_centerX {
+- (CGFloat)centerX {
     return self.center.x;
 }
 
-- (void)setHao_centerX:(CGFloat)hao_centerX {
+- (void)setCenterX:(CGFloat)centerX {
     CGPoint center = self.center;
-    center.x = hao_centerX;
+    center.x = centerX;
     self.center = center;
 }
 
-- (CGFloat)hao_centerY {
+- (CGFloat)centerY {
     return self.center.y;
 }
 
-- (void)setHao_centerY:(CGFloat)hao_centerY {
+- (void)setCenterY:(CGFloat)centerY {
     CGPoint center = self.center;
-    center.y = hao_centerY;
+    center.y = centerY;
     self.center = center;
 }
 
-- (CGFloat)hao_width {
+- (CGFloat)width {
     return self.frame.size.width;
 }
 
-- (void)setHao_width:(CGFloat)hao_width {
+- (void)setWidth:(CGFloat)width {
     CGRect frame = self.frame;
-    frame.size.width = hao_width;
+    frame.size.width = width;
     self.frame = frame;
 }
 
-- (CGFloat)hao_height {
+- (CGFloat)height {
     return self.frame.size.height;
 }
 
-- (void)setHao_height:(CGFloat)hao_height {
+- (void)setHeight:(CGFloat)height {
     CGRect frame = self.frame;
-    frame.size.height = hao_height;
+    frame.size.height = height;
     self.frame = frame;
 }
 

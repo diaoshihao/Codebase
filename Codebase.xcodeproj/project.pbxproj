@@ -18,6 +18,15 @@
 		9B9470231FA3408C00BF2B1F /* CodebaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9470221FA3408C00BF2B1F /* CodebaseUITests.m */; };
 		9BA277D91FC3B7360034CE30 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA277D81FC3B7360034CE30 /* NSString+Extension.m */; };
 		9BA277DD1FC3B7940034CE30 /* DeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA277DC1FC3B7940034CE30 /* DeviceInfoManager.m */; };
+		9BB7FE4F20282DC500D58375 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7FE4E20282DC500D58375 /* CameraViewController.m */; };
+		9BB7FE5D20282F2000D58375 /* ZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7FE5720282F2000D58375 /* ZoomingScrollView.m */; };
+		9BB7FE5E20282F2000D58375 /* ContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7FE5B20282F2000D58375 /* ContentScrollView.m */; };
+		9BB7FE5F20282F2000D58375 /* SHPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7FE5C20282F2000D58375 /* SHPhotoBrowser.m */; };
+		9BB7FE66202D339700D58375 /* SHImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7FE65202D339700D58375 /* SHImageView.m */; };
+		9BB7FE69202D354A00D58375 /* SHImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7FE68202D354A00D58375 /* SHImageManager.m */; };
+		9BB7FE6C202D357000D58375 /* SHImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7FE6B202D357000D58375 /* SHImageCache.m */; };
+		9BB7FE6F202D358900D58375 /* SHImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7FE6E202D358900D58375 /* SHImageLoader.m */; };
+		9BB7FE72202D359D00D58375 /* SHImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7FE71202D359D00D58375 /* SHImageProcessor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +69,24 @@
 		9BA277D81FC3B7360034CE30 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		9BA277DB1FC3B7940034CE30 /* DeviceInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoManager.h; sourceTree = "<group>"; };
 		9BA277DC1FC3B7940034CE30 /* DeviceInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoManager.m; sourceTree = "<group>"; };
+		9BB7FE4D20282DC500D58375 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		9BB7FE4E20282DC500D58375 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		9BB7FE5720282F2000D58375 /* ZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomingScrollView.m; sourceTree = "<group>"; };
+		9BB7FE5820282F2000D58375 /* ContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentScrollView.h; sourceTree = "<group>"; };
+		9BB7FE5920282F2000D58375 /* ZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomingScrollView.h; sourceTree = "<group>"; };
+		9BB7FE5A20282F2000D58375 /* SHPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHPhotoBrowser.h; sourceTree = "<group>"; };
+		9BB7FE5B20282F2000D58375 /* ContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentScrollView.m; sourceTree = "<group>"; };
+		9BB7FE5C20282F2000D58375 /* SHPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHPhotoBrowser.m; sourceTree = "<group>"; };
+		9BB7FE64202D339700D58375 /* SHImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHImageView.h; sourceTree = "<group>"; };
+		9BB7FE65202D339700D58375 /* SHImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHImageView.m; sourceTree = "<group>"; };
+		9BB7FE67202D354A00D58375 /* SHImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHImageManager.h; sourceTree = "<group>"; };
+		9BB7FE68202D354A00D58375 /* SHImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHImageManager.m; sourceTree = "<group>"; };
+		9BB7FE6A202D357000D58375 /* SHImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHImageCache.h; sourceTree = "<group>"; };
+		9BB7FE6B202D357000D58375 /* SHImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHImageCache.m; sourceTree = "<group>"; };
+		9BB7FE6D202D358900D58375 /* SHImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHImageLoader.h; sourceTree = "<group>"; };
+		9BB7FE6E202D358900D58375 /* SHImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHImageLoader.m; sourceTree = "<group>"; };
+		9BB7FE70202D359D00D58375 /* SHImageProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHImageProcessor.h; sourceTree = "<group>"; };
+		9BB7FE71202D359D00D58375 /* SHImageProcessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHImageProcessor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +158,9 @@
 				9B0D1FF61FA6BC8E0060D448 /* Foundation_Category */,
 				9B0D1FF71FA6BC8E0060D448 /* UIKit_Category */,
 				9BA277DA1FC3B77B0034CE30 /* Manager */,
+				9BB7FE4920280F3100D58375 /* Camera */,
+				9BB7FE5620282F1200D58375 /* PhotoBrowser */,
+				9BB7FE63202D338000D58375 /* SHImageView */,
 				9B9470301FA3447D00BF2B1F /* Other */,
 				9B946FFD1FA3408C00BF2B1F /* Supporting Files */,
 			);
@@ -185,6 +215,45 @@
 				9BA277DC1FC3B7940034CE30 /* DeviceInfoManager.m */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		9BB7FE4920280F3100D58375 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7FE4D20282DC500D58375 /* CameraViewController.h */,
+				9BB7FE4E20282DC500D58375 /* CameraViewController.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		9BB7FE5620282F1200D58375 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7FE5820282F2000D58375 /* ContentScrollView.h */,
+				9BB7FE5B20282F2000D58375 /* ContentScrollView.m */,
+				9BB7FE5A20282F2000D58375 /* SHPhotoBrowser.h */,
+				9BB7FE5C20282F2000D58375 /* SHPhotoBrowser.m */,
+				9BB7FE5920282F2000D58375 /* ZoomingScrollView.h */,
+				9BB7FE5720282F2000D58375 /* ZoomingScrollView.m */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		9BB7FE63202D338000D58375 /* SHImageView */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7FE64202D339700D58375 /* SHImageView.h */,
+				9BB7FE65202D339700D58375 /* SHImageView.m */,
+				9BB7FE67202D354A00D58375 /* SHImageManager.h */,
+				9BB7FE68202D354A00D58375 /* SHImageManager.m */,
+				9BB7FE6A202D357000D58375 /* SHImageCache.h */,
+				9BB7FE6B202D357000D58375 /* SHImageCache.m */,
+				9BB7FE6D202D358900D58375 /* SHImageLoader.h */,
+				9BB7FE6E202D358900D58375 /* SHImageLoader.m */,
+				9BB7FE70202D359D00D58375 /* SHImageProcessor.h */,
+				9BB7FE71202D359D00D58375 /* SHImageProcessor.m */,
+			);
+			path = SHImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,8 +392,17 @@
 				9B0D20001FA6C2DC0060D448 /* UIView+Extension.m in Sources */,
 				9BA277D91FC3B7360034CE30 /* NSString+Extension.m in Sources */,
 				9B9470051FA3408C00BF2B1F /* ViewController.m in Sources */,
+				9BB7FE5E20282F2000D58375 /* ContentScrollView.m in Sources */,
+				9BB7FE69202D354A00D58375 /* SHImageManager.m in Sources */,
+				9BB7FE6C202D357000D58375 /* SHImageCache.m in Sources */,
+				9BB7FE5D20282F2000D58375 /* ZoomingScrollView.m in Sources */,
+				9BB7FE72202D359D00D58375 /* SHImageProcessor.m in Sources */,
+				9BB7FE6F202D358900D58375 /* SHImageLoader.m in Sources */,
 				9BA277DD1FC3B7940034CE30 /* DeviceInfoManager.m in Sources */,
+				9BB7FE5F20282F2000D58375 /* SHPhotoBrowser.m in Sources */,
 				9B9470021FA3408C00BF2B1F /* AppDelegate.m in Sources */,
+				9BB7FE66202D339700D58375 /* SHImageView.m in Sources */,
+				9BB7FE4F20282DC500D58375 /* CameraViewController.m in Sources */,
 				9B946FFF1FA3408C00BF2B1F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
