@@ -22,10 +22,11 @@
 
 @property (nonatomic, assign) CGFloat height;
 
-@property (nonatomic, assign) CGFloat screenWidth;
-
-@property (nonatomic, assign) CGFloat screenHeight;
-
 @property (nonatomic, strong, readonly) UIViewController *currentViewController;
+
+
+- (void)cornerRadius:(CGFloat)radius;
+
+- (void)cornerRadii:(CGSize)radii byRoundingCorners:(UIRectCorner)roundingConers;
 
 @end
